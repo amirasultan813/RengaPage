@@ -1,6 +1,6 @@
 body
 {
-    background-color: gray;
+    margin: 0px;
 }
 div.opacity
 {
@@ -11,6 +11,7 @@ div.opacity
     height: 100%;
     width: 100%;
     z-index: 1;
+    margin-top: -20px;
 }
 div.parent1
 {
@@ -23,7 +24,6 @@ div.parent1
     font-weight: 600;
     font-size:small;
     z-index: 2;
-    margin-bottom: 0px;
     margin-top: -20px;
 }
 li{
