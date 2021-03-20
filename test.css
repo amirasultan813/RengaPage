@@ -1,3 +1,7 @@
+body
+{
+    background-color: gray;
+}
 div.opacity
 {
     background-image: url("hero-bg.jpg");
@@ -13,18 +17,18 @@ div.parent1
     background-color:black ;
     height: 100%;
     width: 100%;
-    opacity: .6;
+    opacity: .7;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: 600;
     font-size:small;
-    margin-bottom: 0px;
-    margin-top: -5px;
     z-index: 2;
+    margin-bottom: 0px;
+    margin-top: -20px;
 }
 li{
     display: inline;
-    margin:10px;
+    margin: 0px 10px 0px ;
     padding: 5px;
 }
 a{
@@ -37,45 +41,49 @@ a.mm:hover
 }
 a.mm{
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: small;
 }
 a:hover
 {
     text-decoration: underline 3px rgb(45,202,152);
     color:white;
     font-size: medium;
+    font-weight: 500;
 }
 ul
 {
-    margin: 30px auto 15px;
+    margin: 20px auto 15px;
+    padding-top: 5px;
     
 }
-.renga
+span.renga
 {
-    margin: 30px 350px auto 70px ;
+    margin: 20px 350px auto 50px ;
     margin-left: 50px;
     float: left;
     opacity: .7;
 }
-section
+section.welcome
 {
     margin:200px auto ;
     font-weight: bold;
     font-size:large;
     align-items: center;
 }
-h1,h3{
+h1.welcome,h3.welcome{
     text-align: center;
     margin: 5px;
 }
-h3
+h3.welcome
 {
-    font-weight: 500;
-    font-size:large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:400;
+    font-size: x-large;
 }
 button.submit
 {
-    width: 20%;
+    width: 10%;
     height: 30px;
     color: white;
     border-radius: 20px;
@@ -83,7 +91,7 @@ button.submit
     background-color: transparent;
     margin-top: 100px ;
     margin-bottom: 290px;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-right: 40%;
 }
 button.submit:hover
@@ -104,66 +112,86 @@ select:hover
     text-decoration: underline 3px rgb(45,202,152);
     color: white;
     font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
 }
 div.parent2
 {
     width: 100%;
     height: 100%;
     background-color: rgb(255,255,255);
-    margin-top: 0px;
+    margin-top:-200px;
 }
 div.second
 {
-    width: 50%;
+    width: 40%;
     height: 50%;
-    margin: 0px 0px;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
+    background-color: rgb(255,255,255);
+    display: inline;
+    background-color: white;
 
 }
-img.iiim
+div.third
 {
-    display: inline;
-    width:50%;
+    width:60%;
     height: 50%;
     float: right;
-    margin-top: -50px;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 10px;
+
 }
 div.first
 {
-    margin: 0px auto 10px 20px ;
+    padding-top: 80px ;
+    margin: 0px 0px 0px 60px ;
+    background-color: rgb(255,255,255);
+}
+h2#myy
+{
+    padding: 50px auto 20px auto;
 }
 svg
 {
     border: 2px solid rgb(8,194,140);
     border-radius: 50% 50%;
-    padding: 10px;
-    margin: 20px 5px auto ;
-    
+    padding: 7px;
 }
-.h3
+div.child1,div.child2,div.child3
 {
-    margin: -30px auto 5px 70px;
-    text-align: left;
-    font-weight: 600;
-    font-size: medium;
-    
+    width: 100%px;
+    height: 32%;
+    margin: 0px auto 0px 60px  ;
 }
-.child1,.child2,.child3
+
+section.icons
 {
-    margin: 5px auto 0px 50px  ;
+    width: 50px;
+    height: 60px;
+    margin: 20px 10px 0px auto;
+    display: inline;
+    float: left;
+    margin: top;
+}
+section.words
+{
+    width: 250px;
+    height: 50px;
+    margin: 25px 10px 0px 0px;
+    display: inline;
+}
+h3.child3
+{
+    margin: auto;
 }
 p.gray
 {
-    color: rgb(93,95,104);
-    margin-left: 70px;
+    color:grey;
+    margin:0px auto auto 10px;
 }
-h2,p{
-    margin: 5px auto 10px 50px ;
-    
-}
-div.first,div.third
-{
-    margin-top: -50px;
+div.child3{
+    padding-bottom: 15px;
 }
